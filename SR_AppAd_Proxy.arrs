@@ -1,0 +1,104 @@
+# NAME: SR_AppAd_Proxy
+# GENERATED-FOR: Anywhere Routing Rule Set
+# DESCRIPTION: 小火箭 sr_app_ad 代理规则
+# RULES: 94
+# SKIPPED: 9
+# SKIPPED-TYPES: URL-REGEX=5, GEOIP=3, FINAL=1
+# SOURCES:
+# - https://raw.githubusercontent.com/huijingfei/Shadowrocket-Rules/main/sr_app_ad.conf
+
+name = SR_AppAd_Proxy
+3, facebook
+3, fb.me
+3, fbcdn.net
+2, addons.mozilla.org
+2, bootstrapcdn.com
+2, browserleaks.com
+2, browserleaks.org
+2, browserscan.net
+2, byteoversea.com
+2, cdninstagram.com
+2, cmx.im
+2, creaders.net
+2, dns.google
+2, dnsleak.com
+2, dnsleaktest.com
+2, doh.sb
+2, dot.sb
+2, duck.ai
+2, duckduckgo.com
+2, ebay.com
+2, ebayimg.com
+2, ebayrtm.com
+2, ebaystatic.com
+2, expressvpn.com
+2, ggpht.com
+2, github.com
+2, githubusercontent.com
+2, google.com
+2, googleapis.com
+2, googleusercontent.com
+2, googlevideo.com
+2, hsex.tv
+2, ibyteimg.com
+2, instagram.com
+2, ipleak.net
+2, linkedin.com
+2, microsoftedge.microsoft.com
+2, nordvpn.com
+2, nyt.com
+2, nytimes.com
+2, opendns.com
+2, perfect-privacy.com
+2, pinterest.com
+2, pki.goog
+2, quora.com
+2, radio.itunes.apple.com
+2, reddit.com
+2, snapkit.com
+2, surfshark.com
+2, t.co
+2, t.me
+2, tdesktop.com
+2, teams.live.com
+2, telegra.ph
+2, telegram.me
+2, telegram.org
+2, telesco.pe
+2, theinitium.com
+2, threads.com
+2, threads.net
+2, tiktok.com
+2, tiktokcdn-us.com
+2, tiktokcdn.com
+2, tiktokv.com
+2, tiktokv.us
+2, twimg.com
+2, twitter.com
+2, vpnunlimited.com
+2, whatsapp.com
+2, whatsapp.net
+2, whoer.net
+2, whrq.net
+2, withpersona.com
+2, x.com
+2, youtu.be
+2, youtube.com
+2, yt.be
+2, ytimg.com
+2, zoom.us
+0, 109.239.140.0/24
+0, 149.154.160.0/20
+0, 185.76.151.0/24
+0, 91.105.192.0/23
+0, 91.108.12.0/22
+0, 91.108.16.0/22
+0, 91.108.20.0/22
+0, 91.108.4.0/22
+0, 91.108.56.0/22
+0, 91.108.8.0/22
+1, 2001:67c:4e8::/48
+1, 2001:b28:f23c::/48
+1, 2001:b28:f23d::/48
+1, 2001:b28:f23f::/48
+1, 2a0a:f280::/32
