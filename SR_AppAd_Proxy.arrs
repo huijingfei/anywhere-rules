@@ -1,7 +1,7 @@
 # NAME: SR_AppAd_Proxy
 # GENERATED-FOR: Anywhere Routing Rule Set
 # DESCRIPTION: 小火箭 sr_app_ad 代理规则
-# RULES: 94
+# RULES: 80
 # SKIPPED: 9
 # SKIPPED-TYPES: URL-REGEX=5, GEOIP=3, FINAL=1
 # SOURCES:
@@ -35,10 +35,6 @@ name = SR_AppAd_Proxy
 2, ggpht.com
 2, github.com
 2, githubusercontent.com
-2, google.com
-2, googleapis.com
-2, googleusercontent.com
-2, googlevideo.com
 2, hsex.tv
 2, ibyteimg.com
 2, instagram.com
@@ -87,16 +83,6 @@ name = SR_AppAd_Proxy
 2, yt.be
 2, ytimg.com
 2, zoom.us
-0, 109.239.140.0/24
-0, 149.154.160.0/20
-0, 185.76.151.0/24
-0, 91.105.192.0/23
-0, 91.108.12.0/22
-0, 91.108.16.0/22
-0, 91.108.20.0/22
-0, 91.108.4.0/22
-0, 91.108.56.0/22
-0, 91.108.8.0/22
 1, 2001:67c:4e8::/48
 1, 2001:b28:f23c::/48
 1, 2001:b28:f23d::/48
