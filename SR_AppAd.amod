@@ -175,7 +175,6 @@ routing = 2
 2, ctrack.trafficjunky.net
 2, custom-login.yy.com
 2, deliver.ptgncdn.com
-2, df.tanx.com
 2, dmsdk-api-ssp.dmrtb.com
 2, dmsdk-api.dmrtb.com
 2, dmsdk-tracking.dmrtb.com
@@ -190,14 +189,12 @@ routing = 2
 2, ductquest.com
 2, e.qq.com
 2, eclick.baidu.com
-2, ef-dongfeng.tanx.com
 2, eg-cdn.trafficjunky.net
 2, em.baidu.com
 2, ems.youku.com
 2, engagements.appsflyer.com
 2, engine.camvenue.live
 2, errlog.umeng.com
-2, et.tanx.com
 2, etahub.com
 2, evtubescms.phncdn.com
 2, fancyapi.com
@@ -390,6 +387,7 @@ routing = 2
 2, tab.yy.com
 2, taboola.com
 2, tangram.e.qq.com
+2, tanx.com
 2, tianshu.gtimg.cn
 2, tiktok.adsmeasurement.com
 2, tmead.y.qq.com
