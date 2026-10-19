@@ -14,7 +14,7 @@ name = SR_AppAd_MITM
 hostname = alicdn.com, taou.com, 58.com, cloud.video.taobao.com, m5.amap.com, api.m.jd.com, 360buyimg.com, www.tianxibook.com, interface.music.163.com, app.bilibili.com, api.zhihu.com, acs.m.goofish.com, g.cn, google.cn, xianqihaotianmi.org, chensiwx.com, xsbiquge.la
 
 0, 0, ^https?:\/\/(www\.)?(g\.cn|google\.cn)\/?$, 1, https://www.google.com
-0, 0, ^https:\/\/www\.tianxibook\.com\/public\/\d{6}\.js$, 2, {}
+0, 0, ^https?:\/\/www\.tianxibook\.com\/public\/\d{6}\.js$, 2, {}
 0, 0, ^https?:\/\/interface\.music\.163\.com\/eapi\/ad\/config\/get, 2, {}
 0, 0, ^https?:\/\/m\.360buyimg\.com\/mobilecms\/s1125, 3
 0, 0, ^https?:\/\/api\.zhihu\.com\/commercial_api\/(real_time_)?launch_v2\?, 2, {}
@@ -23,9 +23,9 @@ hostname = alicdn.com, taou.com, 58.com, cloud.video.taobao.com, m5.amap.com, ap
 0, 0, ^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=(lite_advertising|homeAreaPop), 2, {}
 0, 0, ^https?:\/\/(img\w|kjimg10)\.360buyimg\.com\/(pop|mcmktresadmin)\/jfs\/([\w\W]*)\.(jpg|png|heic|webp|avif), 3
 0, 0, ^https?:\/\/ossgw\.alicdn\.com\/creatives-assets\/(image|prod)\/([\w\W]*).(jpg|png|heic|webp), 3
-0, 0, ^https?:\/\/cloud\.video\.taobao\.com\/vod\/([\w\W]*).mp4, 4
+0, 0, ^https?:\/\/cloud\.video\.taobao\.com\/vod\/[\w\W]*\.mp4, 4
 0, 0, ^https?:\/\/cloud\.video\.taobao\.com\/.*alimama.*\.mp4, 4
-0, 0, ^https:\/\/acs\.m\.goofish\.com\/gw\/mtop\.taobao\.idlecommerce\.splash, 2, {}
+0, 0, ^https?:\/\/acs\.m\.goofish\.com\/gw\/mtop\.taobao\.idlecommerce\.splash, 2, {}
 0, 0, ^https?:\/\/acs\.m\.goofish\.com\/gw\/mtop\.idle\.idleadv\.(.*), 2, {}
 0, 0, ^https?:\/\/img\.alicdn\.com\/imgextra\/i\w\/([\w\W]*)-at([\w\W]*)\.(jpg|png|heic|webp), 3
 0, 0, ^https?:\/\/(gw|heic|img)\.alicdn\.com\/imgextra\/i\w\/([\w\W]*)(1080-|1125-2436|1350|-1602|-1950|-2339|-2436|-2208|1170-2532)([\w\W]*)\.(jpg|png|heic|webp), 3
