@@ -21,14 +21,14 @@ hostname = alicdn.com, taou.com, 58.com, cloud.video.taobao.com, m5.amap.com, ap
 0, 0, ^https?:\/\/app\.bilibili\.com\/x\/v2\/splash\/(event\/list|brand\/list|show|list), 2, {}
 0, 0, ^https?:\/\/m5\.amap\.com\/ws\/(feature\/preheat\/bootevent|shield\/dsp\/app\/startup\/init|valueadded\/alimama\/splash_screen), 2, {}
 0, 0, ^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=(lite_advertising|homeAreaPop), 2, {}
-0, 0, ^https?:\/\/(img\w|kjimg10)\.360buyimg\.com\/(pop|mcmktresadmin)\/jfs\/([\w\W]*)\.(jpg|png|heic|webp|avif), 3
-0, 0, ^https?:\/\/ossgw\.alicdn\.com\/creatives-assets\/(image|prod)\/([\w\W]*).(jpg|png|heic|webp), 3
+0, 0, ^https?:\/\/(img\w|kjimg10)\.360buyimg\.com\/(pop|mcmktresadmin)\/jfs\/([\w\W]*)\.(jpg|png|heic|webp|avif), [\s\S]+,
+0, 0, ^https?:\/\/ossgw\.alicdn\.com\/creatives-assets\/(image|prod)\/([\w\W]*).(jpg|png|heic|webp), [\s\S]+,
 0, 0, ^https?:\/\/cloud\.video\.taobao\.com\/vod\/[\w\W]*\.mp4, 4
 0, 0, ^https?:\/\/cloud\.video\.taobao\.com\/.*alimama.*\.mp4, 4
 0, 0, ^https?:\/\/acs\.m\.goofish\.com\/gw\/mtop\.taobao\.idlecommerce\.splash, 2, {}
 0, 0, ^https?:\/\/acs\.m\.goofish\.com\/gw\/mtop\.idle\.idleadv\.(.*), 2, {}
-0, 0, ^https?:\/\/img\.alicdn\.com\/imgextra\/i\w\/([\w\W]*)-at([\w\W]*)\.(jpg|png|heic|webp), 3
-0, 0, ^https?:\/\/(gw|heic|img)\.alicdn\.com\/imgextra\/i\w\/([\w\W]*)(1080-|1125-2436|1350|-1602|-1950|-2339|-2436|-2208|1170-2532)([\w\W]*)\.(jpg|png|heic|webp), 3
+0, 0, ^https?:\/\/img\.alicdn\.com\/imgextra\/i\w\/([\w\W]*)-at([\w\W]*)\.(jpg|png|heic|webp), [\s\S]+,
+0, 0, ^https?:\/\/(gw|heic|img)\.alicdn\.com\/imgextra\/i\w\/([\w\W]*)(1080-|1125-2436|1350|-1602|-1950|-2339|-2436|-2208|1170-2532)([\w\W]*)\.(jpg|png|heic|webp), [\s\S]+,
 0, 0, ^https?:\/\/app\.58\.com\/api\/home\/appadv\/splashscreenadv, 2, {}
 0, 0, ^https?:\/\/open\.taou\.com\/maimai\/adshow, 2, {}
 0, 0, https?:\/\/m\.xianqihaotianmi\.org\/[a-zA-Z0-9]{8}\/[a-zA-Z0-9]{10}\.js, 2, {}
