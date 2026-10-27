@@ -106,7 +106,6 @@ routing = 2
 2, als.baidu.com
 2, amap-aos-info-nogw.amap.com
 2, amazon-adsystem.com
-2, amdc.m.taobao.com
 2, analytics-ios-tcp.rayjump.com
 2, analytics.adjust.io
 2, analytics.oceanengine.com
@@ -443,15 +442,3 @@ routing = 2
 2, yystatic.bs2cdn.yy.com
 2, zhanzhang.toutiao.com
 2, zz.bdstatic.com
-0, 203.119.206.64/32
-0, 203.119.206.8/32
-0, 203.119.211.219/32
-0, 47.246.103.10/32
-0, 47.246.103.9/32
-0, 59.82.113.10/32
-0, 59.82.113.219/32
-0, 59.82.113.252/32
-0, 59.82.113.39/32
-0, 59.82.14.161/32
-0, 59.82.34.148/32
-0, 59.82.34.255/32
