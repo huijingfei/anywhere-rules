@@ -19,7 +19,7 @@ hostname = alicdn.com, taou.com, 58.com, cloud.video.taobao.com, m5.amap.com, ap
 0, 0, ^https?:\/\/m\.360buyimg\.com\/mobilecms\/s1125, 2, {}
 0, 0, ^https?:\/\/api\.zhihu\.com\/commercial_api\/(real_time_)?launch_v2\?, 2, {}
 0, 0, ^https?:\/\/app\.bilibili\.com\/x\/v2\/splash\/(event\/list|brand\/list|show|list), 2, {}
-0, 0, ^https?:\/\/m5\.amap\.com\/ws\/(feature\/preheat\/bootevent|shield\/dsp\/app\/startup\/init|valueadded\/alimama\/splash_screen), 2, {}
+0, 0, ^https?:\/\/m5\.amap\.com\/ws\/(valueadded\/alimama\/splash_screen), 4
 0, 0, ^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=(lite_advertising|homeAreaPop), 2, {}
 0, 0, ^https?:\/\/(img\w|kjimg10)\.360buyimg\.com\/(pop|mcmktresadmin)\/jfs\/([\w\W]*)\.(jpg|png|heic|webp|avif), 2, {}
 0, 0, ^https?:\/\/ossgw\.alicdn\.com\/creatives-assets\/(image|prod)\/([\w\W]*).(jpg|png|heic|webp), 4
